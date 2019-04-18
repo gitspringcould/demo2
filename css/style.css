@@ -345,6 +345,13 @@ a:visited {
     list-style: none;
 }
 
+#clan-slider ul li {
+    display: block;
+    margin: 2px 0 0 0;
+    padding: 0;
+    position: relative;
+}
+
 #clan-slider ul li a {
     display: block;
     overflow: hidden;
