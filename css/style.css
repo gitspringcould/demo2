@@ -310,3 +310,24 @@ a:visited {
     color: #999;
     margin-right: 10px;
 }
+
+.our-client {
+    background-color: #e1e1e1;
+}
+
+.our-client-item {
+    overflow: hidden !important;
+}
+
+.our-client-item .our-client-logo {
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    margin: 20px auto;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.our-client-item img {
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(100%);
+}
