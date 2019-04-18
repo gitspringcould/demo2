@@ -14,8 +14,10 @@
 }
 
 .navbar-default {
+    border: 0;
+    margin-bottom: 0;
     border-bottom: 2px solid #0ba1e4;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -132,11 +134,11 @@
     border-color: #0ba1e4;
 }
 
-a:visited{
+a:visited {
     text-decoration: none;
 }
 
-.btn-outline-blue:hover{
+.btn-outline-blue:hover {
     background-color: #0ba1e4;
     color: #ffffff;
 }
