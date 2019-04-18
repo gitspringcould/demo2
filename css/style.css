@@ -76,6 +76,17 @@
     line-height: 1.5em;
 }
 
+.our-whyus-item:hover {
+    background-color: #0ba1e4;
+    border: 1px solid #0ba1e4;
+    box-shadow: 0 0 20px 0 rgba(45, 183, 245, .5);
+    color: #ffffff;
+}
+
+.our-whyus-item:hover > .glyphicon {
+    color: #ffffff;
+}
+
 .our-whyus-item h3 {
     line-height: 1.5em;
 }
@@ -389,4 +400,72 @@ a:visited {
 
 #slider-goTop {
     background-position: 0 0;
+}
+
+#footer {
+    padding: 0;
+    background-color: #363636;
+}
+
+#footer .footer-item {
+    height: 160px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 1em;
+    border-left: 2px solid #c1c1c1;
+    overflow: hidden;
+}
+
+#footer .footer-list h4 {
+    color: #f5f5f5;
+}
+
+#footer .footer-list ul {
+    margin: 25px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+#footer .footer-list ul li a {
+    color: #f5f5f5;
+    line-height: 2.5em;
+}
+
+#footer .footer-wechat img {
+    max-width: 132px;
+}
+
+#footer .footer-wechat p {
+    text-align: center;
+    color: #f5f5f5;
+    line-height: 2.5em;
+}
+
+#footer .footer-contact h2 {
+    display: block;
+    color: #ffffff;
+    margin: 0;
+    line-height: 52px;
+}
+
+#footer .footer-contact h2 img {
+    width: 40px;
+    height: 40px;
+    margin-top: -6px;
+    margin-right: 10px;
+}
+
+#footer .footer-item-last {
+    border-right: 2px solid #c1c1c1;
+}
+
+#copyright {
+    background-color: #666;
+}
+
+#copyright p {
+    text-align: center;
+    margin: 10px;
+    line-height: 40px;
+    color: #fafafa;
 }
